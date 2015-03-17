@@ -19,7 +19,7 @@ public class Controller implements ActionListener, KeyListener {
 	private View view;
 	private int boardSize;
 
-	private ArrayList<Location> visitedNodes = new ArrayList<Location>();
+//	private ArrayList<Location> visitedNodes = new ArrayList<Location>();
 	private final int[][] secondHeuristicWeights = 
 		{{120, -20,  20,   5,   5,  20, -20, 120},
 			{-20, -40,  -5,  -5,  -5,  -5, -40, -20},
